@@ -1,0 +1,44 @@
+### Build ve Derleme Dosyaları ###
+target/
+build/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IDE Ayar Dosyaları ###
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+### Log ve Geçici Dosyalar ###
+*.log
+*.tmp
+*.bak
+*.swp
+
+### İşletim Sistemi Dosyaları ###
+.DS_Store
+Thumbs.db
